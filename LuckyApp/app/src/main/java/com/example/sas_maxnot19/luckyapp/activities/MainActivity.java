@@ -50,14 +50,14 @@ public class MainActivity extends AppCompatActivity {
         //set grid view item
         Bitmap dressingIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.dressing);
         Bitmap friendIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.friend);
-        Bitmap recommendIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.recommend);
+        //Bitmap recommendIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.recommend);
         Bitmap activitiesIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.activities);
         Bitmap locationIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.location);
         Bitmap accessoriesIcon = BitmapFactory.decodeResource(this.getResources(), R.drawable.accessories);
 
         gridArray.add(new Item(dressingIcon,"Dressing",DressingActivity.class));
         gridArray.add(new Item(friendIcon,"Friend",FriendActivity.class));
-        gridArray.add(new Item(recommendIcon,"Recommend",RecommendActivity.class));
+        //gridArray.add(new Item(recommendIcon,"Recommend",RecommendActivity.class));
         gridArray.add(new Item(activitiesIcon,"Activities",Activities_Activity.class));
         gridArray.add(new Item(locationIcon,"Location",LocationActivity.class));
         gridArray.add(new Item(accessoriesIcon,"Accessories",AccessoryActivity.class));
