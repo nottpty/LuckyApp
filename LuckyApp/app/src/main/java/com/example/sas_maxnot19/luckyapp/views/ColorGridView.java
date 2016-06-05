@@ -10,7 +10,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
 import com.example.sas_maxnot19.luckyapp.R;
-import com.example.sas_maxnot19.luckyapp.models.ColorList;
 
 import java.util.ArrayList;
 

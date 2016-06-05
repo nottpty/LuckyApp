@@ -1,8 +1,6 @@
 package com.example.sas_maxnot19.luckyapp.activities;
 
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
@@ -12,7 +10,6 @@ import android.util.Log;
 import android.widget.GridView;
 
 import com.example.sas_maxnot19.luckyapp.R;
-import com.example.sas_maxnot19.luckyapp.models.ColorList;
 import com.example.sas_maxnot19.luckyapp.models.Profile;
 import com.example.sas_maxnot19.luckyapp.models.Zodiac;
 import com.example.sas_maxnot19.luckyapp.views.ColorGridView;
@@ -22,9 +19,9 @@ import java.util.ArrayList;
 
 public class AccessoryActivity extends AppCompatActivity {
 
-    GridView gridView;
-    ArrayList<Integer> gridArray = new ArrayList<Integer>();
-    ColorGridView customGridAdapter;
+    private GridView gridView;
+    private ArrayList<Integer> gridArray = new ArrayList<Integer>();
+    private ColorGridView customGridAdapter;
     private Zodiac zodiac;
 
     @Override

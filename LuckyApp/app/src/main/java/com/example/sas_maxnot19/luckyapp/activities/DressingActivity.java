@@ -20,9 +20,9 @@ import java.util.ArrayList;
 
 public class DressingActivity extends AppCompatActivity {
 
-    GridView gridView;
-    ArrayList<Integer> gridArray = new ArrayList<Integer>();
-    ColorGridView customGridAdapter;
+    private GridView gridView;
+    private ArrayList<Integer> gridArray = new ArrayList<Integer>();
+    private ColorGridView customGridAdapter;
     private Zodiac zodiac;
 
     @Override

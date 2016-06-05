@@ -23,29 +23,14 @@ public class Profile implements Serializable{
         return firstname;
     }
 
-    public void setFirstname(String firstname) { this.firstname = firstname; }
-
     public String getLastname() {
         return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
     }
 
     public Date getDate() {
         return this.date;
     }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
     public boolean isMale() {
         return isMale;
-    }
-
-    public void setMale(boolean male) {
-        isMale = male;
     }
 }

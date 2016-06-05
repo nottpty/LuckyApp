@@ -31,7 +31,6 @@ public class ProfileActivity extends AppCompatActivity {
     private TextView timeOfBirth_tv;
     private RadioButton male_rdb, female_rdb;
 
-//    private TextView edit_tv;
     private TextView back;
 
     @Override
@@ -45,17 +44,6 @@ public class ProfileActivity extends AppCompatActivity {
         setTitle("Profile");
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#FF4081")));
-        //profile = (Profile)getIntent().getSerializableExtra("profile");
-        //Log.e("Firstname", profile.getFirstname());
-//        edit_tv = (TextView)findViewById(R.id.edit_btn);
-//        edit_tv.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(ProfileActivity.this, EditActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-
         back = (TextView)findViewById(R.id.back_btn);
         back.setOnClickListener(new View.OnClickListener() {
             @Override

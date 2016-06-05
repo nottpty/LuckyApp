@@ -21,9 +21,9 @@ import java.util.ArrayList;
 
 public class LocationActivity extends AppCompatActivity {
 
-    GridView gridView;
-    ArrayList<Location> gridArray = new ArrayList<Location>();
-    LocationGridView customGridAdapter;
+    private GridView gridView;
+    private  ArrayList<Location> gridArray = new ArrayList<Location>();
+    private LocationGridView customGridAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
